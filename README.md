@@ -5,7 +5,7 @@
 ║                                                              ║
 ║        J A M E S   W A L K E R                              ║
 ║        Senior Software Engineer                              ║
-║        9 Years Building What Matters                         ║
+║        12 Years Building What Matters                         ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
@@ -22,7 +22,7 @@
 const james: Engineer = {
   name:        "James Walker",
   title:       "Senior Software Engineer",
-  experience:  "9 years",
+  experience:  "12 years",
   location:    "🌍 Open to Remote",
   mindset:     ["Clean Code", "Scalable Systems", "Team First"],
 
