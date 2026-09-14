@@ -121,14 +121,6 @@ const james: Engineer = {
   └─────────────────────────────────────────────┘
 ```
 
----
-
-## 📈 Activity Graph
-
-[![James's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jameswalker&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
