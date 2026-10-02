@@ -83,7 +83,7 @@ const tomas: Engineer = {
 
 <br/>
 
-## 📊 GitHub Stats
+<!--## 📊 GitHub Stats
 
 <div align="center">
 
@@ -129,7 +129,7 @@ const tomas: Engineer = {
 
 <br/>
 
-<!-- ## 🚀 Featured Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
