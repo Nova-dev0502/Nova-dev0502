@@ -148,7 +148,7 @@ const tomas: Engineer = {
 
 <div align="center">
 
-I am always open to interesting conversations about system design, engineering culture, or the next big idea. Reach out — I'd love to hear from you.
+I am always open to interesting conversations about system design, engineering culture, or the next big idea. Reach out - I'd love to hear from you.
 
 <p>
   <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
