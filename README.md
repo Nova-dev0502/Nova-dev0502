@@ -133,10 +133,10 @@ const tomas: Engineer = {
 
 <div align="center">
 
-<a href="https://github.com/yourusername/project-one">
+<a href="https://github.com/tomas-dev-0502/Eattoo-food-delivery-website">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-one&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </a>
-<a href="https://github.com/yourusername/project-two">
+<a href="https://github.com/tomas-dev-0502/Blogni">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-two&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </a>
 
