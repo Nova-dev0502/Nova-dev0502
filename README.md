@@ -1,143 +1,65 @@
-<div align="center">
+<h1 align="center">Tomas Cooper</h1>
+<p align="center">
+  <strong>Senior Software Engineer</strong><br>
+  Distributed systems · Full stack · Cloud<br>
+  <em>9 years building software that stays understandable as it scales.</em>
+</p>
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║        Tomas Cooper                               ║
-║        Senior Software Engineer                              ║
-║        9 Years Building What Matters                         ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer+%F0%9F%9A%80;9+Years+of+Crafting+Clean+Code+%F0%9F%94%A7;System+Architecture+%7C+Full+Stack+%7C+Cloud;Always+Learning%2C+Always+Building+%F0%9F%92%BB)](https://git.io/typing-svg)
-
-</div>
+<p align="center">
+  <a href="https://github.com/tomas-dev-0502">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-tomas--dev--0502-181717?style=flat-square&logo=github&logoColor=white">
+  </a>
+  <img alt="Open to remote" src="https://img.shields.io/badge/Open%20to-Remote-0F766E?style=flat-square">
+</p>
 
 ---
 
-## 👋 About Me
+## About
 
-```typescript
-const james: Engineer = {
-  name:        "Tomas Cooper",
-  title:       "Senior Software Engineer",
-  experience:  "9 years",
-  location:    "🌍 Open to Remote",
-  mindset:     ["Clean Code", "Scalable Systems", "Team First"],
+I design and ship systems that stay reliable under real load, and I care as much about the people reading the code as the machines running it.
 
-  currentFocus: [
-    "Building distributed, high-availability systems",
-    "Mentoring junior engineers",
-    "Contributing to open source",
-  ],
+Right now that means distributed, high-availability services, mentoring engineers earlier in their careers, and contributing to open source. The through-line is the same: clean code, systems that can grow, and a team-first way of working.
 
-  philosophy: "Write code that your future self will thank you for.",
-};
-```
+> Write code that your future self will thank you for.
 
 ---
 
-## 🛠️ Tech Stack
+## Stack
 
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### Backend & APIs
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+| | |
+| --- | --- |
+| **Languages** | TypeScript · JavaScript · Python · Go · Java · Rust |
+| **Frontend** | React · Next.js · Vue · Tailwind CSS |
+| **Backend** | Node.js · FastAPI · GraphQL · REST |
+| **Cloud** | AWS · GCP · Docker · Kubernetes · Terraform · GitHub Actions |
+| **Data** | PostgreSQL · MongoDB · Redis · Elasticsearch |
 
 ---
 
-## 📊 GitHub Stats
+## Highlights
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jameswalker&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jameswalker&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=jameswalker&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
+| Year | Work |
+| --- | --- |
+| 2015 | Started in software engineering |
+| 2017 | Led a production system used by 100k+ people |
+| 2019 | Led a cloud migration that cut infrastructure cost by 40% |
+| 2021 | Designed and shipped a microservices platform |
+| 2023 | Grew and mentored a team of 8 engineers |
+| 2024 | Delivered a system handling 10M+ events a day |
 
 ---
 
-## 🏆 Career Highlights
+## How I work
 
-| Year | Milestone |
-|------|-----------|
-| 2015 | 🎓 Started my software engineering journey |
-| 2017 | 🚀 Led first major production system (100k+ users) |
-| 2019 | ☁️ Architected cloud migration saving 40% infrastructure costs |
-| 2021 | 🏗️ Built and shipped a microservices platform from scratch |
-| 2023 | 👥 Grew and mentored a team of 8 engineers |
-| 2024 | ⚡ Delivered system handling 10M+ events/day |
+- Write for the reader, not the machine.
+- Optimize for change, not perfection.
+- Own the problem, not just the ticket.
+- Ship it, then make it better.
+
+Simple is not easy. It takes work.
 
 ---
 
-## 🧠 Engineering Principles
-
-```
-  ┌─────────────────────────────────────────────┐
-  │                                             │
-  │   "Simple is not easy. It requires work."  │
-  │                                             │
-  │   ✦ Write for the reader, not the machine  │
-  │   ✦ Optimize for change, not perfection    │
-  │   ✦ Own the problem, not just the ticket   │
-  │   ✦ Ship it. Then make it better.          │
-  │                                             │
-  └─────────────────────────────────────────────┘
-```
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jameswalker)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://jameswalker.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:james@jameswalker.dev)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jameswalkerdev)
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=jameswalker&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS)
-
-*"The best code is the code that solves the right problem."*
-
-</div>
+<p align="center">
+  <em>The best code is the code that solves the right problem.</em>
+</p>
