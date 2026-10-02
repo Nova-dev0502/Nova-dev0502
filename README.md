@@ -129,7 +129,7 @@ const tomas: Engineer = {
 
 <br/>
 
-## 🚀 Featured Projects
+<!-- ## 🚀 Featured Projects
 
 <div align="center">
 
@@ -142,7 +142,7 @@ const tomas: Engineer = {
 
 </div>
 
-<br/>
+<br/> -->
 
 ## 📫 Let's Connect
 
