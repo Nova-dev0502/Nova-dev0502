@@ -20,7 +20,7 @@
 
 ```typescript
 const james: Engineer = {
-  name:        "James Walker",
+  name:        "Tomas Cooper",
   title:       "Senior Software Engineer",
   experience:  "9 years",
   location:    "🌍 Open to Remote",
