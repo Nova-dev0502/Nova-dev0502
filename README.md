@@ -3,7 +3,7 @@
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║        J A M E S   W A L K E R                               ║
+║        Tomas Cooper                               ║
 ║        Senior Software Engineer                              ║
 ║        9 Years Building What Matters                         ║
 ║                                                              ║
