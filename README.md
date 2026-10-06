@@ -1,169 +1,126 @@
-<div align="center">
+<!-- ========================================================= -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B42BC&height=200&section=header&text=Nova%20Dev&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Freelancer%20%7C%209%20Years%20Building%20What%20Matters&descAlignY=58&descSize=18" width="100%"/>
+<!--                     PREMIUM HERO                          -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Freelancer+%F0%9F%9A%80;9+Years+of+Crafting+Clean+Code+%F0%9F%94%A7;System+Architecture+%7C+Full+Stack+%7C+Cloud;Always+Learning%2C+Always+Building+%F0%9F%92%BB)](https://git.io/typing-svg)
+<!-- ========================================================= -->
 
-<p>
-  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:seraph.nova.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://tomas-portfolio-seven.vercel.app"><img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=About.me&logoColor=white"/></a>
-  <a href="https://t.me/NovaDev0502"><img src="https://img.shields.io/badge/telegram-178ec9?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<p align="center">
+  <img width="1664" height="936" alt="Nova Dev" src="https://github.com/user-attachments/assets/5a8843b7-d6bd-4bfe-9855-95bc08357c22" />
 </p>
 
-</div>
+<!-- ========================================================= -->
 
-<br/>
+<!--                    PROFILE INTRO                          -->
 
-## 👋 About Me
+<!-- ========================================================= -->
 
-```typescript
-const Nova: Engineer = {
-  name:        "Nova Dev",
-  title:       "Full Stack Freelancer",
-  experience:  "9 years",
-  location:    "🌍 Open to Remote",
-  mindset:     ["Clean Code", "Scalable Systems", "Team First"],
+<table align="center" width="96%">
+<tr>
 
-  currentFocus: [
-    "Building distributed, high-availability systems",
-    "Mentoring junior engineers",
-    "Contributing to open source",
-  ],
+<td width="58%" valign="top">
 
-  philosophy: "Write code that your future self will thank you for.",
-};
-```
+<h2>Nova Dev</h2>
 
-<br/>
+<p>
+Full-stack freelancer with <strong>9 years</strong> of experience
+building production web applications from interface to API,
+database, and deployment.
+</p>
 
-## 🛠️ Tech Stack
+<p>
+I take a product from idea to a shipped system: clear architecture,
+reliable backend services, and a frontend people can actually use.
+Available for contract work at
+<a href="https://github.com/Nova-dev0502">github.com/Nova-dev0502</a>.
+</p>
 
-<div align="center">
+<br>
 
-**Languages**
+<table>
+<tr>
+<td>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+<strong>Frontend</strong><br> <sub>React · Next.js · TypeScript</sub>
 
-**Frontend**
+</td>
+<td>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<strong>Backend</strong><br> <sub>Python · Node.js · Java · Go</sub>
 
-**Backend & APIs**
+</td>
+</tr>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<tr>
+<td>
 
-**Cloud & DevOps**
+<strong>Cloud</strong><br> <sub>AWS · Azure · GCP · Kubernetes</sub>
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+</td>
+<td>
 
-**Databases**
+<strong>AI</strong><br> <sub>LLM · RAG · LangChain</sub>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-
-</div>
-
-<br/>
-
-<!--## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-
-<img src="https://streak-stats.demolab.com?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117" width="60%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="95%"/>
-
-</div>
-
-<br/>
-
-## 🏆 Career Highlights
-
-<table width="100%">
-  <tr>
-    <td width="80"><b>2015</b></td>
-    <td>🎓 Started my software engineering journey</td>
-  </tr>
-  <tr>
-    <td><b>2017</b></td>
-    <td>🚀 Led first major production system (100k+ users)</td>
-  </tr>
-  <tr>
-    <td><b>2019</b></td>
-    <td>☁️ Architected cloud migration saving 40% infrastructure costs</td>
-  </tr>
-  <tr>
-    <td><b>2021</b></td>
-    <td>🏗️ Built and shipped a microservices platform from scratch</td>
-  </tr>
-  <tr>
-    <td><b>2023</b></td>
-    <td>👥 Grew and mentored a team of 8 engineers</td>
-  </tr>
-  <tr>
-    <td><b>2024</b></td>
-    <td>⚡ Delivered a system handling 10M+ events/day in production</td>
-  </tr>
+</td>
+</tr>
 </table>
 
-<br/>
+</td>
 
-## 🚀 Featured Projects
+<td width="42%" align="center">
 
-<div align="center">
+<img width="960" height="960" alt="Nova Dev" src="https://github.com/user-attachments/assets/56a9d4d3-a1d2-4028-bce9-f4742f82c031" />
 
-<a href="https://github.com/Nova-dev0502/Eattoo-food-delivery-website">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-one&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-<a href="https://github.com/Nova-dev0502/Blogni">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-two&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
+</td>
 
-</div>
+</tr>
+</table>
 
-<br/> -->
+<!-- ========================================================= -->
 
-## 📫 Let's Connect
+<!--                    TECHNOLOGY MATRIX                      -->
 
-<div align="center">
+<!-- ========================================================= -->
 
-I am always open to interesting conversations about system design, engineering culture, or the next big idea. Reach out - I'd love to hear from you.
-
-<p>
-  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:seraph.nova.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://t.me/NovaDev0502"><img src="https://img.shields.io/badge/telegram-178ec9?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  
+<p align="center">
+  <img width="1664" height="936" alt="Technology matrix" src="https://github.com/user-attachments/assets/45e88119-2d01-4e84-895c-580287d27a03" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B42BC,100:00D9FF&height=100&section=footer" width="100%"/>
+<!-- ========================================================= -->
 
-</div>
+<!--                    LANGUAGE WALL                          -->
 
+<!-- ========================================================= -->
 
+<p align="center">
+  <img width="1664" height="936" alt="Languages" src="https://github.com/user-attachments/assets/6f432534-5f4f-486a-8213-b4aeed78e62f" />
+</p>
 
-this is my github profile.
-i want to update this more modern and professional anb great.
+<!-- ========================================================= -->
+
+<!--                  ARCHITECTURE                             -->
+
+<!-- ========================================================= -->
+
+<p align="center">
+  <img width="1664" height="936" alt="Architecture" src="https://github.com/user-attachments/assets/44af0da5-f5b2-4063-bd51-6d54134522f5" />
+</p>
+
+<!-- ========================================================= -->
+
+<!--                 OBSERVABILITY                             -->
+
+<!-- ========================================================= -->
+
+<p align="center">
+  <img width="1664" height="936" alt="Observability" src="https://github.com/user-attachments/assets/f88ca2c9-fd65-4b14-be02-378f5c8bc52e" />
+</p>
+
+<!-- ========================================================= -->
+
+<!--                  CONTRIBUTION GRAPH                       -->
+
+<!-- ========================================================= -->
+
+<p align="center">
+  <img width="1664" height="936" alt="Contribution graph" src="https://github.com/user-attachments/assets/902d2c1c-738a-4f4b-a090-c47830a774f8" />
+</p>
