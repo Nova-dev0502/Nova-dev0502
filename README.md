@@ -68,7 +68,7 @@ Available for contract work at
 
 <td width="42%" align="center">
 
-<img width="960" height="960" alt="Nova Dev" src="https://github.com/user-attachments/assets/56a9d4d3-a1d2-4028-bce9-f4742f82c031" />
+<img width="960" height="960" alt="Nova Dev" src="./assets/profile.jpg" />
 
 </td>
 
