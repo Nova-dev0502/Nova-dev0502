@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B42BC&height=200&section=header&text=Tomas%20Cooper&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Software%20Engineer%20%7C%209%20Years%20Building%20What%20Matters&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B42BC&height=200&section=header&text=Nova%20Dev&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Software%20Engineer%20%7C%209%20Years%20Building%20What%20Matters&descAlignY=58&descSize=18" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer+%F0%9F%9A%80;9+Years+of+Crafting+Clean+Code+%F0%9F%94%A7;System+Architecture+%7C+Full+Stack+%7C+Cloud;Always+Learning%2C+Always+Building+%F0%9F%92%BB)](https://git.io/typing-svg)
 
@@ -17,8 +17,8 @@
 ## 👋 About Me
 
 ```typescript
-const tomas: Engineer = {
-  name:        "Tomas Cooper",
+const Nova: Engineer = {
+  name:        "Nova Dev",
   title:       "Senior Software Engineer",
   experience:  "9 years",
   location:    "🌍 Open to Remote",
@@ -133,10 +133,10 @@ const tomas: Engineer = {
 
 <div align="center">
 
-<a href="https://github.com/tomas-dev-0502/Eattoo-food-delivery-website">
+<a href="https://github.com/Nova-dev0502/Eattoo-food-delivery-website">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-one&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </a>
-<a href="https://github.com/tomas-dev-0502/Blogni">
+<a href="https://github.com/Nova-dev0502/Blogni">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-two&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </a>
 
