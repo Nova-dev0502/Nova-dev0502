@@ -68,7 +68,7 @@ Available for contract work at
 
 <td width="42%" align="center">
 
-<img width="960" height="960" alt="Nova Dev" src="./2.webp" />
+<img width="960" height="960" alt="Nova Dev" src="./4.webp" />
 
 </td>
 
