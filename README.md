@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B42BC&height=200&section=header&text=Nova%20Dev&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Software%20Engineer%20%7C%209%20Years%20Building%20What%20Matters&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B42BC&height=200&section=header&text=Nova%20Dev&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Freelancer%20%7C%209%20Years%20Building%20What%20Matters&descAlignY=58&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer+%F0%9F%9A%80;9+Years+of+Crafting+Clean+Code+%F0%9F%94%A7;System+Architecture+%7C+Full+Stack+%7C+Cloud;Always+Learning%2C+Always+Building+%F0%9F%92%BB)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Freelancer+%F0%9F%9A%80;9+Years+of+Crafting+Clean+Code+%F0%9F%94%A7;System+Architecture+%7C+Full+Stack+%7C+Cloud;Always+Learning%2C+Always+Building+%F0%9F%92%BB)](https://git.io/typing-svg)
 
 <p>
   <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -19,7 +19,7 @@
 ```typescript
 const Nova: Engineer = {
   name:        "Nova Dev",
-  title:       "Senior Software Engineer",
+  title:       "Full Stack Freelancer",
   experience:  "9 years",
   location:    "🌍 Open to Remote",
   mindset:     ["Clean Code", "Scalable Systems", "Team First"],
@@ -152,7 +152,7 @@ I am always open to interesting conversations about system design, engineering c
 
 <p>
   <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:seraph.nova.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 </p>
 
