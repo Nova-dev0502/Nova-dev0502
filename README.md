@@ -5,7 +5,7 @@
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="1664" height="936" alt="Nova Dev" src="https://github.com/user-attachments/assets/5a8843b7-d6bd-4bfe-9855-95bc08357c22" />
+  <img width="960" height="960" alt="Nova Dev" src="./2.webp" />
 </p>
 
 <!-- ========================================================= -->
