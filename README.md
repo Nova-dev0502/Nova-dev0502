@@ -8,6 +8,7 @@
   <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:seraph.nova.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=About.me&logoColor=white"/></a>
+  <a href="https://t.me/NovaDev0502"><img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 
 </div>
