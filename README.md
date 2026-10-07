@@ -82,7 +82,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="1664" height="936" alt="Technology matrix" src="https://github.com/user-attachments/assets/45e88119-2d01-4e84-895c-580287d27a03" />
+<img width="960" height="960" alt="Nova Dev" src="./1.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -92,7 +92,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="1664" height="936" alt="Languages" src="https://github.com/user-attachments/assets/6f432534-5f4f-486a-8213-b4aeed78e62f" />
+<img width="960" height="960" alt="Nova Dev" src="./2.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -102,7 +102,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="1664" height="936" alt="Architecture" src="https://github.com/user-attachments/assets/44af0da5-f5b2-4063-bd51-6d54134522f5" />
+<img width="960" height="960" alt="Nova Dev" src="./3.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -112,7 +112,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="1664" height="936" alt="Observability" src="https://github.com/user-attachments/assets/f88ca2c9-fd65-4b14-be02-378f5c8bc52e" />
+<img width="960" height="960" alt="Nova Dev" src="./4.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -122,5 +122,5 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="1664" height="936" alt="Contribution graph" src="https://github.com/user-attachments/assets/902d2c1c-738a-4f4b-a090-c47830a774f8" />
+<img width="960" height="960" alt="Nova Dev" src="./5.svg" />
 </p>
