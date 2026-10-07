@@ -5,7 +5,7 @@
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="960" height="600" alt="Nova Dev" src="./nova_man_animated.svg" />
+  <img width="960" height="600" alt="Nova Man" src="./nova_man_animated.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -19,7 +19,7 @@
 
 <td width="58%" valign="top">
 
-<h2>Nova Dev</h2>
+<h2>Nova Man</h2>
 
 <p>
 Full-stack freelancer with <strong>9 years</strong> of experience
@@ -31,7 +31,7 @@ database, and deployment.
 I take a product from idea to a shipped system: clear architecture,
 reliable backend services, and a frontend people can actually use.
 Available for contract work at
-<a href="https://github.com/Nova-dev0502">github.com/Nova-dev0502</a>.
+<a href="https://github.com/NovaMan777">github.com/NovaMan777</a>.
 </p>
 
 <br>
@@ -68,7 +68,7 @@ Available for contract work at
 
 <td width="42%" align="center">
 
-<img width="960" height="960" alt="Nova Dev" src="./2.webp" />
+<img width="960" height="960" alt="Nova Man" src="./2.webp" />
 
 </td>
 
@@ -82,7 +82,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-<img width="960" height="960" alt="Nova Dev" src="./1.svg" />
+<img width="960" height="960" alt="Nova Man" src="./1.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -92,7 +92,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-<img width="960" height="960" alt="Nova Dev" src="./2.svg" />
+<img width="960" height="960" alt="Nova Man" src="./2.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -102,7 +102,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-<img width="960" height="960" alt="Nova Dev" src="./3.svg" />
+<img width="960" height="960" alt="Nova Man" src="./3.svg" />
 </p>
 
 <!-- ========================================================= -->
@@ -112,7 +112,7 @@ Available for contract work at
 <!-- ========================================================= -->
 
 <p align="center">
-<img width="960" height="960" alt="Nova Dev" src="./4.svg" />
+<img width="960" height="960" alt="Nova Man" src="./4.svg" />
 </p>
 
 <!-- ========================================================= -->
