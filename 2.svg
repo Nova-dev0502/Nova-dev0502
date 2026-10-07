@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1664" height="936" viewBox="0 0 1664 936"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>System Architecture — Dark Green Animated</title>
+  <desc>
+    A redesigned animated system architecture diagram showing Client Application,
+    API Gateway, Microservices, Data Layer, and five architecture domains.
+  </desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020a06"/>
+      <stop offset=".45" stop-color="#061910"/>
+      <stop offset="1" stop-color="#020d08"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102a1c" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#06150d" stop-opacity=".98"/>
+    </linearGradient>
+
+    <linearGradient id="neonLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#20ff72" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#74ffa6"/>
+      <stop offset=".55" stop-color="#caffdc"/>
+      <stop offset="1" stop-color="#20ff72" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="ambient">
+      <stop offset="0" stop-color="#39ff7d" stop-opacity=".25"/>
+      <stop offset=".5" stop-color="#1cff6a" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#1cff6a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="node">
+      <stop offset="0" stop-color="#d8ffe6"/>
+      <stop offset=".18" stop-color="#68ff9d"/>
+      <stop offset=".55" stop-color="#20ff70" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#20ff70" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#6aff9b" stroke-opacity=".055"/>
+      <circle cx="0" cy="0" r="1.1" fill="#8affb4" opacity=".16"/>
+    </pattern>
+
+    <pattern id="microgrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#8bffb5" stroke-opacity=".022"/>
+    </pattern>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="17"/>
+    </filter>
+
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+
+    <!-- Reusable dark technology badge -->
+    <g id="badge">
+      <rect x="-34" y="-24" width="68" height="48" rx="11"
+            fill="#07160e" stroke="#49ff88" stroke-opacity=".32"/>
+      <rect x="-29" y="-19" width="58" height="38" rx="8"
+            fill="none" stroke="#8dffb4" stroke-opacity=".07"/>
+    </g>
+
+    <!-- Pulsing connection endpoint -->
+    <g id="endpoint">
+      <circle r="12" fill="url(#node)" opacity=".35">
+        <animate attributeName="r" values="6;18;6" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" fill="#baffd0">
+        <animate attributeName="r" values="2;5;2" dur="1.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </defs>
+
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
+
+  <rect width="1664" height="936" fill="url(#bg)"/>
+  <rect width="1664" height="936" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;42 42;0 0" dur="16s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1664" height="936" fill="url(#microgrid)" opacity=".55">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;-10 10;0 0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <ellipse cx="832" cy="340" rx="650" ry="400"
+           fill="url(#ambient)" filter="url(#softGlow)">
+    <animate attributeName="rx" values="550;710;570;680;550"
+             dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="330;430;360;420;330"
+             dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ====================================================== -->
+  <!-- HEADER -->
+  <!-- ====================================================== -->
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="832" y="72" fill="#eafff1" font-size="48" font-weight="700"
+          letter-spacing=".5">
+      SYSTEM ARCHITECTURE
+      <animate attributeName="opacity" values=".82;1;.82" dur="4s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="832" y="106" fill="#62ff98" font-size="12" letter-spacing="4"
+          opacity=".72">
+      REQUEST FLOW / SERVICE MESH / DATA / INFRASTRUCTURE
+    </text>
+
+    <rect x="580" y="126" width="504" height="1.5"
+          fill="url(#neonLine)">
+      <animate attributeName="width" values="350;560;350"
+               dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="657;552;657"
+               dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Header status dots -->
+  <g fill="#73ffa4" filter="url(#tinyGlow)">
+    <circle cx="540" cy="126" r="2">
+      <animate attributeName="opacity" values=".15;1;.15" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1125" cy="126" r="2">
+      <animate attributeName="opacity" values="1;.15;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- TOP ARCHITECTURE PIPELINE -->
+  <!-- ====================================================== -->
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+
+    <!-- CLIENT -->
+    <g transform="translate(832 170)">
+      <rect x="-150" y="-27" width="300" height="54" rx="14"
+            fill="#07170f" stroke="#52ff91" stroke-opacity=".4"/>
+      <rect x="-150" y="-27" width="5" height="54" rx="2"
+            fill="#46ff87">
+        <animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="-119" cy="0" r="16" fill="#0b2918" stroke="#50ff8e" stroke-opacity=".35"/>
+      <path d="M-128 0h18M-119-9v18" stroke="#83ffad" stroke-width="2"/>
+      <text x="12" y="5" fill="#eafff1" font-size="15" font-weight="700"
+            letter-spacing="2">CLIENT APPLICATION</text>
+    </g>
+
+    <!-- API -->
+    <g transform="translate(832 236)">
+      <rect x="-132" y="-25" width="264" height="50" rx="13"
+            fill="#07170f" stroke="#52ff91" stroke-opacity=".4"/>
+      <circle cx="-103" cy="0" r="15" fill="#0b2918" stroke="#50ff8e" stroke-opacity=".35"/>
+      <path d="M-110-6L-103-10L-96-6V6L-103 10L-110 6Z"
+            fill="none" stroke="#70ffa0" stroke-width="1.7"/>
+      <text x="12" y="5" fill="#eafff1" font-size="14" font-weight="700"
+            letter-spacing="2">API GATEWAY</text>
+    </g>
+
+    <!-- SERVICES -->
+    <g transform="translate(832 302)">
+      <rect x="-144" y="-25" width="288" height="50" rx="13"
+            fill="#07170f" stroke="#52ff91" stroke-opacity=".4"/>
+      <circle cx="-114" cy="0" r="15" fill="#0b2918" stroke="#50ff8e" stroke-opacity=".35"/>
+      <circle cx="-114" cy="0" r="6" fill="none" stroke="#70ffa0" stroke-width="2"/>
+      <path d="M-114-12V-7M-114 7V12M-126 0H-121M-107 0H-102"
+            stroke="#70ffa0" stroke-width="1.5"/>
+      <text x="12" y="5" fill="#eafff1" font-size="14" font-weight="700"
+            letter-spacing="2">MICROSERVICES</text>
+    </g>
+
+    <!-- DATA -->
+    <g transform="translate(832 368)">
+      <rect x="-130" y="-25" width="260" height="50" rx="13"
+            fill="#07170f" stroke="#52ff91" stroke-opacity=".4"/>
+      <circle cx="-100" cy="0" r="15" fill="#0b2918" stroke="#50ff8e" stroke-opacity=".35"/>
+      <ellipse cx="-100" cy="-5" rx="8" ry="4" fill="none" stroke="#70ffa0" stroke-width="1.6"/>
+      <path d="M-108-5V6C-108 11-92 11-92 6V-5"
+            fill="none" stroke="#70ffa0" stroke-width="1.6"/>
+      <text x="11" y="5" fill="#eafff1" font-size="14" font-weight="700"
+            letter-spacing="2">DATA LAYER</text>
+    </g>
+  </g>
+
+  <!-- Main vertical data flow -->
+  <g fill="none" stroke="#58ff91" stroke-width="2" filter="url(#glow)">
+    <path d="M832 197V211 M832 261V277 M832 327V343"
+          stroke-dasharray="3 11" opacity=".7">
+      <animate attributeName="stroke-dashoffset" values="0;-56" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(832 204)"><use href="#endpoint"/></g>
+  <g transform="translate(832 270)"><use href="#endpoint"/></g>
+  <g transform="translate(832 336)"><use href="#endpoint"/></g>
+
+  <!-- ====================================================== -->
+  <!-- ARCHITECTURE BUS -->
+  <!-- ====================================================== -->
+
+  <path d="M170 500 H1494" fill="none"
+        stroke="#4cff88" stroke-opacity=".12" stroke-width="2"/>
+
+  <path d="M832 393 V455" fill="none"
+        stroke="#61ff98" stroke-width="2" stroke-dasharray="3 10"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-60" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="832" cy="455" r="7" fill="#baffd0" filter="url(#glow)">
+    <animate attributeName="r" values="4;9;4" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ====================================================== -->
+  <!-- FIVE ARCHITECTURE DOMAIN PANELS -->
+  <!-- ====================================================== -->
+
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <!-- EXPERIENCE -->
+    <g transform="translate(86 490)">
+      <rect x="-4" y="-4" width="296" height="370" rx="20"
+            fill="#39ff7a" opacity=".045" filter="url(#softGlow)"/>
+      <rect width="288" height="362" rx="18" fill="url(#panel)"
+            stroke="#52ff91" stroke-opacity=".30"/>
+
+      <rect x="0" y="0" width="288" height="5" rx="2" fill="#48ff88">
+        <animate attributeName="opacity" values=".25;.9;.25" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="24" y="34" fill="#60ff99" font-size="10" letter-spacing="3">01 / EXPERIENCE</text>
+
+      <!-- Animated browser icon -->
+      <g transform="translate(144 86)">
+        <rect x="-47" y="-35" width="94" height="70" rx="10"
+              fill="#0a2115" stroke="#6aff9e" stroke-opacity=".45"/>
+        <path d="M-47-17H47" stroke="#6aff9e" stroke-opacity=".35"/>
+        <circle cx="-32" cy="-26" r="3" fill="#69ff9d"/>
+        <circle cx="-22" cy="-26" r="3" fill="#69ff9d" opacity=".45"/>
+        <rect x="-31" y="-5" width="62" height="8" rx="4" fill="#3cff7b" opacity=".4"/>
+        <rect x="-31" y="9" width="38" height="7" rx="3" fill="#3cff7b" opacity=".2"/>
+        <rect x="13" y="9" width="18" height="7" rx="3" fill="#3cff7b" opacity=".3"/>
+        <animateTransform attributeName="transform" type="translate"
+          values="144 86;144 82;144 86" dur="3s" repeatCount="indefinite"/>
+      </g>
+
+      <text x="24" y="154" fill="#eafff1" font-size="24" font-weight="700">EXPERIENCE</text>
+      <text x="24" y="179" fill="#69ad84" font-size="11">USER INTERFACE / CLIENT RUNTIME</text>
+
+      <g transform="translate(49 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="11" font-weight="700">REACT</text>
+      </g>
+      <g transform="translate(143 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="11" font-weight="700">NEXT</text>
+      </g>
+      <g transform="translate(237 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="11" font-weight="700">MOBILE</text>
+      </g>
+
+      <text x="24" y="278" fill="#86bc99" font-size="14">React / Next.js</text>
+      <text x="24" y="302" fill="#86bc99" font-size="14">Mobile Clients</text>
+      <text x="24" y="326" fill="#86bc99" font-size="14">Real-time UI</text>
+
+      <circle cx="258" cy="317" r="4" fill="#79ffa6" filter="url(#tinyGlow)">
+        <animate attributeName="r" values="2;7;2" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- API -->
+    <g transform="translate(382 490)">
+      <rect x="-4" y="-4" width="296" height="370" rx="20"
+            fill="#39ff7a" opacity=".045" filter="url(#softGlow)"/>
+      <rect width="288" height="362" rx="18" fill="url(#panel)"
+            stroke="#52ff91" stroke-opacity=".30"/>
+
+      <rect width="288" height="5" rx="2" fill="#48ff88">
+        <animate attributeName="opacity" values=".25;.9;.25" dur="4s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="24" y="34" fill="#60ff99" font-size="10" letter-spacing="3">02 / GATEWAY</text>
+
+      <g transform="translate(144 85)">
+        <circle r="43" fill="none" stroke="#53ff90" stroke-opacity=".14" stroke-dasharray="4 8">
+          <animateTransform attributeName="transform" type="rotate"
+            from="0" to="360" dur="7s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="29" fill="#0a2115" stroke="#69ff9e" stroke-opacity=".4"/>
+        <path d="M-13-8L0-17L13-8V8L0 17L-13 8Z"
+              fill="none" stroke="#7dffaa" stroke-width="2"/>
+        <text y="5" text-anchor="middle" fill="#baffd0" font-size="10" font-weight="700">API</text>
+      </g>
+
+      <text x="24" y="154" fill="#eafff1" font-size="24" font-weight="700">API LAYER</text>
+      <text x="24" y="179" fill="#69ad84" font-size="11">EDGE ROUTING / SECURITY / CONTRACTS</text>
+
+      <g transform="translate(49 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="11" font-weight="700">REST</text>
+      </g>
+      <g transform="translate(143 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="10" font-weight="700">GRAPH</text>
+      </g>
+      <g transform="translate(237 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="11" font-weight="700">gRPC</text>
+      </g>
+
+      <text x="24" y="278" fill="#86bc99" font-size="14">REST / GraphQL / gRPC</text>
+      <text x="24" y="302" fill="#86bc99" font-size="14">Authentication</text>
+      <text x="24" y="326" fill="#86bc99" font-size="14">Rate Limits / Routing</text>
+
+      <circle cx="258" cy="317" r="4" fill="#79ffa6" filter="url(#tinyGlow)">
+        <animate attributeName="r" values="2;7;2" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- SERVICES -->
+    <g transform="translate(678 490)">
+      <rect x="-4" y="-4" width="296" height="370" rx="20"
+            fill="#39ff7a" opacity=".045" filter="url(#softGlow)"/>
+      <rect width="288" height="362" rx="18" fill="url(#panel)"
+            stroke="#52ff91" stroke-opacity=".30"/>
+
+      <rect width="288" height="5" rx="2" fill="#48ff88">
+        <animate attributeName="opacity" values=".25;.9;.25" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="24" y="34" fill="#60ff99" font-size="10" letter-spacing="3">03 / COMPUTE</text>
+
+      <g transform="translate(144 85)">
+        <g fill="none" stroke="#6dffa0">
+          <circle r="27" stroke-width="7" stroke-opacity=".65"
+                  stroke-dasharray="9 8">
+            <animateTransform attributeName="transform" type="rotate"
+              from="0" to="360" dur="3.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle r="11" fill="#0a2115" stroke-width="2"/>
+          <path d="M0-40V-30M0 30V40M-40 0H-30M30 0H40"
+                stroke-width="2"/>
+        </g>
+        <circle r="4" fill="#c2ffd7">
+          <animate attributeName="r" values="2;6;2" dur="1.2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <text x="24" y="154" fill="#eafff1" font-size="24" font-weight="700">SERVICES</text>
+      <text x="24" y="179" fill="#69ad84" font-size="11">WORKERS / EVENTS / QUEUES / ORCHESTRATION</text>
+
+      <g transform="translate(49 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="9" font-weight="700">µSVC</text>
+      </g>
+      <g transform="translate(143 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="10" font-weight="700">EVENT</text>
+      </g>
+      <g transform="translate(237 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="10" font-weight="700">QUEUE</text>
+      </g>
+
+      <text x="24" y="278" fill="#86bc99" font-size="14">Microservices</text>
+      <text x="24" y="302" fill="#86bc99" font-size="14">Event-driven Workers</text>
+      <text x="24" y="326" fill="#86bc99" font-size="14">Queues / Background Jobs</text>
+
+      <circle cx="258" cy="317" r="4" fill="#79ffa6" filter="url(#tinyGlow)">
+        <animate attributeName="r" values="2;7;2" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- DATA -->
+    <g transform="translate(974 490)">
+      <rect x="-4" y="-4" width="296" height="370" rx="20"
+            fill="#39ff7a" opacity=".045" filter="url(#softGlow)"/>
+      <rect width="288" height="362" rx="18" fill="url(#panel)"
+            stroke="#52ff91" stroke-opacity=".30"/>
+
+      <rect width="288" height="5" rx="2" fill="#48ff88">
+        <animate attributeName="opacity" values=".25;.9;.25" dur="4.2s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="24" y="34" fill="#60ff99" font-size="10" letter-spacing="3">04 / PERSISTENCE</text>
+
+      <g transform="translate(144 83)" fill="none" stroke="#70ffa0">
+        <ellipse cy="-25" rx="40" ry="12" fill="#0a2115" stroke-opacity=".7"/>
+        <path d="M-40-25V28C-40 42 40 42 40 28V-25" stroke-opacity=".55"/>
+        <ellipse cy="2" rx="40" ry="12" stroke-opacity=".25"/>
+        <ellipse cy="28" rx="40" ry="12" stroke-opacity=".22"/>
+        <circle cy="0" r="56" stroke-opacity=".12" stroke-dasharray="3 9">
+          <animateTransform attributeName="transform" type="rotate"
+            from="360" to="0" dur="8s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <text x="24" y="154" fill="#eafff1" font-size="24" font-weight="700">DATA</text>
+      <text x="24" y="179" fill="#69ad84" font-size="11">STORAGE / CACHE / QUERY PERFORMANCE</text>
+
+      <g transform="translate(49 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="9" font-weight="700">POSTGRES</text>
+      </g>
+      <g transform="translate(143 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="9" font-weight="700">MONGO</text>
+      </g>
+      <g transform="translate(237 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="10" font-weight="700">REDIS</text>
+      </g>
+
+      <text x="24" y="278" fill="#86bc99" font-size="14">PostgreSQL / MongoDB</text>
+      <text x="24" y="302" fill="#86bc99" font-size="14">Redis / Caching</text>
+      <text x="24" y="326" fill="#86bc99" font-size="14">Data Modeling</text>
+
+      <circle cx="258" cy="317" r="4" fill="#79ffa6" filter="url(#tinyGlow)">
+        <animate attributeName="r" values="2;7;2" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- INFRA -->
+    <g transform="translate(1270 490)">
+      <rect x="-4" y="-4" width="296" height="370" rx="20"
+            fill="#39ff7a" opacity=".045" filter="url(#softGlow)"/>
+      <rect width="288" height="362" rx="18" fill="url(#panel)"
+            stroke="#52ff91" stroke-opacity=".30"/>
+
+      <rect width="288" height="5" rx="2" fill="#48ff88">
+        <animate attributeName="opacity" values=".25;.9;.25" dur="3.9s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="24" y="34" fill="#60ff99" font-size="10" letter-spacing="3">05 / INFRASTRUCTURE</text>
+
+      <g transform="translate(144 84)">
+        <path d="M-42 12C-54-17-23-35-3-19C9-43 49-30 43-2C67 0 65 34 39 36H-31C-55 36-60 8-42 12Z"
+              fill="#0a2115" stroke="#70ffa0" stroke-opacity=".55"/>
+        <circle cx="0" cy="8" r="42" fill="none" stroke="#5dff95"
+                stroke-opacity=".13" stroke-dasharray="3 9">
+          <animateTransform attributeName="transform" type="rotate"
+            from="0" to="360" dur="6s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="8" r="4" fill="#baffd0">
+          <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <text x="24" y="154" fill="#eafff1" font-size="24" font-weight="700">INFRASTRUCTURE</text>
+      <text x="24" y="179" fill="#69ad84" font-size="11">CLOUD / CONTAINERS / AUTOMATION</text>
+
+      <g transform="translate(49 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="10" font-weight="700">AWS</text>
+      </g>
+      <g transform="translate(143 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="10" font-weight="700">K8S</text>
+      </g>
+      <g transform="translate(237 220)">
+        <use href="#badge"/><text text-anchor="middle" y="5" fill="#77ffa3" font-size="9" font-weight="700">DOCKER</text>
+      </g>
+
+      <text x="24" y="278" fill="#86bc99" font-size="14">AWS / Kubernetes</text>
+      <text x="24" y="302" fill="#86bc99" font-size="14">Docker / Terraform</text>
+      <text x="24" y="326" fill="#86bc99" font-size="14">CI / CD Automation</text>
+
+      <circle cx="258" cy="317" r="4" fill="#79ffa6" filter="url(#tinyGlow)">
+        <animate attributeName="r" values="2;7;2" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- DATA FLOW CONNECTIONS -->
+  <!-- ====================================================== -->
+
+  <g fill="none" stroke="#55ff90" filter="url(#glow)" stroke-linecap="round">
+
+    <path d="M230 490V455H832" stroke-width="1.4" stroke-opacity=".35"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-120" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M526 490V455H832" stroke-width="1.4" stroke-opacity=".35"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-120" dur="2.1s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M822 490V455H832" stroke-width="1.4" stroke-opacity=".35"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-120" dur="1.7s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M1118 490V455H832" stroke-width="1.4" stroke-opacity=".35"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-120" dur="2.3s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M1414 490V455H832" stroke-width="1.4" stroke-opacity=".35"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-120" dur="2.7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Moving packets -->
+  <g fill="#caffdc" filter="url(#glow)">
+    <circle r="4">
+      <animateMotion path="M230 490V455H832" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4">
+      <animateMotion path="M526 490V455H832" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4">
+      <animateMotion path="M822 490V455H832" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4">
+      <animateMotion path="M1118 490V455H832" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4">
+      <animateMotion path="M1414 490V455H832" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- SIDE FLOATING HUD ELEMENTS -->
+  <!-- ====================================================== -->
+
+  <g font-family="monospace">
+    <g transform="translate(38 470)" opacity=".55">
+      <text fill="#54ff8f" font-size="10">ARCH_BUS</text>
+      <text y="17" fill="#5f9d77" font-size="9">ONLINE</text>
+      <circle cx="8" cy="38" r="3" fill="#62ff98">
+        <animate attributeName="r" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g transform="translate(1530 470)" opacity=".55">
+      <text fill="#54ff8f" font-size="10">FLOW_05</text>
+      <text y="17" fill="#5f9d77" font-size="9">SYNCED</text>
+      <circle cx="8" cy="38" r="3" fill="#62ff98">
+        <animate attributeName="r" values="2;6;2" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Moving particles -->
+  <g fill="#8dffb4" filter="url(#tinyGlow)">
+    <circle cx="150" cy="130" r="1.6">
+      <animate attributeName="cx" values="150;180;150" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="130;110;130" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="330" cy="400" r="1.5">
+      <animate attributeName="cy" values="400;370;400" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="570" cy="145" r="1.8">
+      <animate attributeName="cx" values="570;600;570" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1070" cy="145" r="1.5">
+      <animate attributeName="cx" values="1070;1040;1070" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1330" cy="390" r="1.8">
+      <animate attributeName="cy" values="390;420;390" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1510" cy="830" r="1.5">
+      <animate attributeName="cx" values="1510;1480;1510" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="850" r="1.8">
+      <animate attributeName="cy" values="850;820;850" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Full-width laser scan -->
+  <rect x="-500" y="450" width="500" height="2"
+        fill="url(#neonLine)" filter="url(#glow)" opacity=".6">
+    <animate attributeName="x" values="-500;1664" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scanline effect -->
+  <g opacity=".055">
+    <path d="M0 155H1664 M0 205H1664 M0 255H1664 M0 305H1664
+             M0 355H1664 M0 405H1664 M0 455H1664 M0 505H1664
+             M0 555H1664 M0 605H1664 M0 655H1664 M0 705H1664
+             M0 755H1664 M0 805H1664 M0 855H1664"
+          stroke="#baffd0"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;0 50;0 0" dur="9s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Corner frame -->
+  <rect x="22" y="22" width="1620" height="892" rx="18"
+        fill="none" stroke="#5bff95" stroke-opacity=".15">
+    <animate attributeName="stroke-opacity" values=".08;.3;.1;.24;.08"
+             dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="none" stroke="#6effa0" stroke-width="2" opacity=".55">
+    <path d="M38 72V38H72"/>
+    <path d="M1592 38H1626V72"/>
+    <path d="M38 864V898H72"/>
+    <path d="M1592 898H1626V864"/>
+  </g>
+
+  <!-- Footer status -->
+  <g font-family="monospace" text-anchor="middle">
+    <text x="832" y="900" fill="#4cff88" font-size="10" letter-spacing="3" opacity=".5">
+      CLIENT → GATEWAY → SERVICES → DATA → INFRASTRUCTURE
+      <animate attributeName="opacity" values=".25;.7;.25" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Tiny flickering digital dust -->
+  <g fill="#d8ffe6">
+    <circle cx="440" cy="115" r="1"><animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="410" r="1"><animate attributeName="opacity" values="1;0;.8;0" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="430" r="1.2"><animate attributeName="opacity" values="0;.9;0" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1240" cy="420" r="1"><animate attributeName="opacity" values=".1;1;0;.7" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1450" cy="115" r="1.2"><animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Overall breathing overlay -->
+  <rect width="1664" height="936" fill="#2cff72"
+        opacity=".008" style="mix-blend-mode:screen">
+    <animate attributeName="opacity" values=".005;.025;.007;.02;.005"
+             dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

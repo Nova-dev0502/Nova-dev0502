@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1664" height="936" viewBox="0 0 1664 936">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#020a06"/><stop offset=".5" stop-color="#082016"/><stop offset="1" stop-color="#020c07"/></linearGradient>
+<linearGradient id="green"><stop stop-color="#32ff76"/><stop offset=".5" stop-color="#d5ffe2"/><stop offset="1" stop-color="#32ff76"/></linearGradient>
+<linearGradient id="panel" y2="1"><stop stop-color="#12301f"/><stop offset="1" stop-color="#06150d"/></linearGradient>
+<linearGradient id="scan"><stop stop-color="#4aff88" stop-opacity="0"/><stop offset=".5" stop-color="#d8ffe5"/><stop offset="1" stop-color="#4aff88" stop-opacity="0"/></linearGradient>
+<radialGradient id="orb"><stop stop-color="#8dffb3" stop-opacity=".35"/><stop offset="1" stop-color="#27ff72" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#83ffae" stroke-opacity=".055"/><circle r="1" fill="#aaffc5" opacity=".2"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+
+<rect width="1664" height="936" fill="url(#bg)"/>
+<rect width="1664" height="936" fill="url(#grid)"><animateTransform attributeName="transform" type="translate" values="0 0;44 44;0 0" dur="17s" repeatCount="indefinite"/></rect>
+<ellipse cx="832" cy="450" rx="700" ry="450" fill="url(#orb)" filter="url(#soft)"><animate attributeName="rx" values="600;760;620" dur="11s" repeatCount="indefinite"/></ellipse>
+
+<rect x="22" y="22" width="1620" height="892" rx="18" fill="none" stroke="#62ff98" stroke-opacity=".15">
+<animate attributeName="stroke-opacity" values=".08;.3;.1;.22;.08" dur="6s" repeatCount="indefinite"/></rect>
+
+<text x="832" y="78" text-anchor="middle" font-family="Arial" font-size="48" font-weight="800" fill="url(#green)">OBSERVABILITY &amp; PERFORMANCE
+<animate attributeName="opacity" values=".8;1;.82;1;.8" dur="5s" repeatCount="indefinite"/></text>
+<text x="832" y="107" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="4" fill="#62ff98" opacity=".7">MEASURE / VISUALIZE / OPTIMIZE / SURVIVE</text>
+<rect x="500" y="128" width="664" height="2" fill="url(#scan)" filter="url(#glow)"><animate attributeName="x" values="500;1164;500" dur="5s" repeatCount="indefinite"/></rect>
+
+<!-- TOOL HUDS -->
+<g transform="translate(832 174)" font-family="monospace" text-anchor="middle">
+<g transform="translate(-250)">
+<rect x="-48" y="-32" width="96" height="64" rx="16" fill="#07170f" stroke="#5cff94" stroke-opacity=".4"/>
+<circle r="21" fill="none" stroke="#69ff9d" stroke-width="4" stroke-dasharray="55 22"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></circle><circle r="7" fill="#caffd8" filter="url(#glow)"><animate attributeName="r" values="5;11;5" dur="2s" repeatCount="indefinite"/></circle><text y="52" font-size="8" fill="#63ff98">GRAFANA</text></g>
+<g transform="translate(-125)">
+<rect x="-48" y="-32" width="96" height="64" rx="16" fill="#07170f" stroke="#5cff94" stroke-opacity=".4"/>
+<path d="M-18 18L-12-10L0-23L12-10L18 18ZM-25 18H25M-15 25H15M0-14V14" fill="none" stroke="#63ff98" stroke-width="3"><animate attributeName="opacity" values=".3;1;.3" dur="1.4s" repeatCount="indefinite"/></path><text y="52" font-size="8" fill="#63ff98">PROMETHEUS</text></g>
+<g>
+<rect x="-48" y="-32" width="96" height="64" rx="16" fill="#07170f" stroke="#5cff94" stroke-opacity=".4"/>
+<g fill="none" stroke="#63ff98" stroke-width="3"><rect x="-25" y="-15" width="12" height="10"/><rect x="-10" y="-15" width="12" height="10"/><rect x="5" y="-15" width="12" height="10"/><rect x="-18" y="-2" width="12" height="10"/><rect x="-3" y="-2" width="12" height="10"/><path d="M-31 13H25Q34 13 39 5"/></g><text y="52" font-size="8" fill="#63ff98">DOCKER</text></g>
+<g transform="translate(125)">
+<rect x="-48" y="-32" width="96" height="64" rx="16" fill="#07170f" stroke="#5cff94" stroke-opacity=".4"/>
+<path d="M0-25L22-12V13L0 26L-22 13V-12Z" fill="none" stroke="#63ff98" stroke-width="3"/><circle r="9" fill="none" stroke="#caffd8" stroke-width="2"/><text y="52" font-size="8" fill="#63ff98">KUBERNETES</text></g>
+<g transform="translate(250)">
+<rect x="-48" y="-32" width="96" height="64" rx="16" fill="#07170f" stroke="#5cff94" stroke-opacity=".4"/>
+<ellipse cy="-12" rx="25" ry="9" fill="none" stroke="#63ff98" stroke-width="3"/><path d="M-25-12V12M25-12V12M-25 12Q0 30 25 12" fill="none" stroke="#63ff98" stroke-width="3"/><text y="52" font-size="8" fill="#63ff98">REDIS</text></g>
+</g>
+
+<!-- PIPELINE -->
+<text x="832" y="250" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="3" fill="#50ff8d">OBSERVABILITY PIPELINE</text>
+<path d="M220 267H1444" stroke="#6aff9d" stroke-opacity=".18" stroke-width="2"/>
+<path d="M220 267H1444" stroke="#baffcf" stroke-width="1.5" stroke-dasharray="3 14"><animate attributeName="stroke-dashoffset" values="0;-68" dur="1.3s" repeatCount="indefinite"/></path>
+<circle cx="220" cy="267" r="5" fill="#caffd8" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="1444" cy="267" r="5" fill="#caffd8" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.7s" repeatCount="indefinite"/></circle>
+
+<!-- FOUR OBSERVABILITY CARDS -->
+<g transform="translate(100 295)" font-family="Arial">
+<!-- metrics -->
+<g><rect width="350" height="220" rx="20" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><rect width="350" height="4" fill="#49ff88"/>
+<text x="28" y="42" font-size="24" font-weight="700" fill="#eafff1">METRICS</text><text x="28" y="63" font-family="monospace" font-size="9" fill="#58ff91">PROMETHEUS / TELEMETRY</text>
+<path d="M28 185L65 160L96 168L132 126L164 143L201 105L236 125L273 82L322 102" fill="none" stroke="#63ff98" stroke-width="3" stroke-dasharray="500" stroke-dashoffset="500" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="500;0;500" dur="5s" repeatCount="indefinite"/></path>
+<circle cx="273" cy="82" r="5" fill="#d2ffe0"><animate attributeName="r" values="3;9;3" dur="1.4s" repeatCount="indefinite"/></circle><text x="28" y="205" font-family="monospace" font-size="8" fill="#75aa88">APPLICATION • INFRASTRUCTURE • ERROR</text></g>
+
+<!-- visualization -->
+<g transform="translate(370)"><rect width="350" height="220" rx="20" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><rect width="350" height="4" fill="#49ff88"/>
+<text x="28" y="42" font-size="24" font-weight="700" fill="#eafff1">VISUALIZATION</text><text x="28" y="63" font-family="monospace" font-size="9" fill="#58ff91">GRAFANA / DASHBOARDS</text>
+<rect x="28" y="82" width="294" height="92" rx="10" fill="#06140c" stroke="#245f3b"/>
+<path d="M42 155L80 140L114 148L151 120L187 132L222 96L260 115L306 90" fill="none" stroke="#63ff98" stroke-width="3"/><path d="M42 155L80 140L114 148L151 120L187 132L222 96L260 115L306 90V160H42Z" fill="#43ff82" opacity=".06"/>
+<circle cx="222" cy="96" r="5" fill="#d2ffe0" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.6s" repeatCount="indefinite"/></circle><text x="28" y="205" font-family="monospace" font-size="8" fill="#75aa88">DASHBOARDS • ALERTING • SIGNALS</text></g>
+
+<!-- performance -->
+<g transform="translate(740)"><rect width="350" height="220" rx="20" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><rect width="350" height="4" fill="#49ff88"/>
+<text x="28" y="42" font-size="24" font-weight="700" fill="#eafff1">PERFORMANCE</text><text x="28" y="63" font-family="monospace" font-size="9" fill="#58ff91">CACHE / PROFILE / OPTIMIZE</text>
+<text x="28" y="96" font-family="monospace" font-size="8" fill="#75aa88">CACHE HIT</text><rect x="28" y="105" width="294" height="8" rx="4" fill="#0b2b1a"/><rect x="28" y="105" width="260" height="8" rx="4" fill="#52ff91"><animate attributeName="width" values="120;260;180;294;150;120" dur="5s" repeatCount="indefinite"/></rect>
+<text x="28" y="140" font-family="monospace" font-size="8" fill="#75aa88">CPU PROFILE</text><rect x="28" y="149" width="294" height="8" rx="4" fill="#0b2b1a"/><rect x="28" y="149" width="210" height="8" rx="4" fill="#52ff91"><animate attributeName="width" values="80;220;150;280;110;80" dur="4.3s" repeatCount="indefinite"/></rect>
+<text x="28" y="205" font-family="monospace" font-size="8" fill="#75aa88">LATENCY • THROUGHPUT • EFFICIENCY</text></g>
+
+<!-- reliability -->
+<g transform="translate(1110)"><rect width="350" height="220" rx="20" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><rect width="350" height="4" fill="#49ff88"/>
+<text x="28" y="42" font-size="24" font-weight="700" fill="#eafff1">RELIABILITY</text><text x="28" y="63" font-family="monospace" font-size="9" fill="#58ff91">HEALTH / TRACE / RECOVER</text>
+<g transform="translate(175 124)"><circle r="47" fill="none" stroke="#123d26" stroke-width="10"/><circle r="47" fill="none" stroke="#58ff93" stroke-width="10" stroke-linecap="round" stroke-dasharray="270 26" transform="rotate(-90)"><animate attributeName="stroke-dasharray" values="210 86;270 26;235 61;270 26;210 86" dur="5s" repeatCount="indefinite"/></circle><text y="5" text-anchor="middle" font-size="22" font-weight="700" fill="#d7ffe4">99.9%</text></g><text x="28" y="205" font-family="monospace" font-size="8" fill="#75aa88">HEALTH CHECKS • TRACING • FAULT TOLERANCE</text></g>
+</g>
+
+<!-- moving telemetry packets -->
+<g fill="#d5ffe2" filter="url(#glow)"><circle r="4"><animateMotion path="M160 525H1500" dur="5s" repeatCount="indefinite"/></circle><circle r="3"><animateMotion path="M1500 525H160" dur="6s" repeatCount="indefinite"/></circle></g>
+
+<!-- PHILOSOPHY -->
+<text x="832" y="595" text-anchor="middle" font-family="Arial" font-size="42" font-weight="800" fill="url(#green)">ENGINEERING PHILOSOPHY</text>
+<text x="832" y="620" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="4" fill="#68ad83">PRINCIPLES FOR BUILDING SYSTEMS THAT LAST</text>
+<rect x="80" y="638" width="1504" height="1" fill="#39734e"/>
+
+<g transform="translate(75 660)" font-family="Arial">
+<!-- cards -->
+<g>
+<rect width="285" height="205" rx="18" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><text x="25" y="45" font-family="monospace" font-size="27" font-weight="700" fill="#baffcf">01</text><path d="M25 63H260" stroke="#326847"/><text x="142" y="101" text-anchor="middle" font-size="20" font-weight="700" fill="#eafff1">CLARITY</text><text x="142" y="137" text-anchor="middle" font-size="13" fill="#9ac7a9">Simple systems are easier</text><text x="142" y="160" text-anchor="middle" font-size="13" fill="#9ac7a9">to evolve.</text><text x="25" y="190" font-family="monospace" font-size="8" fill="#5cff94">01 / SIMPLE &amp; EXPLICIT</text><circle cx="250" cy="38" r="5" fill="#63ff98" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.7s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(305)"><rect width="285" height="205" rx="18" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><text x="25" y="45" font-family="monospace" font-size="27" font-weight="700" fill="#baffcf">02</text><path d="M25 63H260" stroke="#326847"/><text x="142" y="101" text-anchor="middle" font-size="20" font-weight="700" fill="#eafff1">SCALABILITY</text><text x="142" y="137" text-anchor="middle" font-size="13" fill="#9ac7a9">Design for growth from the</text><text x="142" y="160" text-anchor="middle" font-size="13" fill="#9ac7a9">beginning.</text><text x="25" y="190" font-family="monospace" font-size="8" fill="#5cff94">02 / SCALE WITH INTENT</text><circle cx="250" cy="38" r="5" fill="#63ff98" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.9s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(610)"><rect width="285" height="205" rx="18" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><text x="25" y="45" font-family="monospace" font-size="27" font-weight="700" fill="#baffcf">03</text><path d="M25 63H260" stroke="#326847"/><text x="142" y="101" text-anchor="middle" font-size="20" font-weight="700" fill="#eafff1">SECURITY</text><text x="142" y="137" text-anchor="middle" font-size="13" fill="#9ac7a9">Security belongs in every</text><text x="142" y="160" text-anchor="middle" font-size="13" fill="#9ac7a9">layer.</text><text x="25" y="190" font-family="monospace" font-size="8" fill="#5cff94">03 / DEFENSE IN DEPTH</text><circle cx="250" cy="38" r="5" fill="#63ff98" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="2.1s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(915)"><rect width="285" height="205" rx="18" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><text x="25" y="45" font-family="monospace" font-size="27" font-weight="700" fill="#baffcf">04</text><path d="M25 63H260" stroke="#326847"/><text x="142" y="101" text-anchor="middle" font-size="20" font-weight="700" fill="#eafff1">PERFORMANCE</text><text x="142" y="137" text-anchor="middle" font-size="13" fill="#9ac7a9">Fast systems create better</text><text x="142" y="160" text-anchor="middle" font-size="13" fill="#9ac7a9">products.</text><text x="25" y="190" font-family="monospace" font-size="8" fill="#5cff94">04 / FAST BY DESIGN</text><circle cx="250" cy="38" r="5" fill="#63ff98" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.5s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(1220)"><rect width="285" height="205" rx="18" fill="url(#panel)" stroke="#5cff96" stroke-opacity=".3"/><text x="25" y="45" font-family="monospace" font-size="27" font-weight="700" fill="#baffcf">05</text><path d="M25 63H260" stroke="#326847"/><text x="142" y="101" text-anchor="middle" font-size="20" font-weight="700" fill="#eafff1">AUTOMATION</text><text x="142" y="137" text-anchor="middle" font-size="13" fill="#9ac7a9">Automate what should never</text><text x="142" y="160" text-anchor="middle" font-size="13" fill="#9ac7a9">be manual.</text><text x="25" y="190" font-family="monospace" font-size="8" fill="#5cff94">05 / AUTOMATE THE REPEATABLE</text><circle cx="250" cy="38" r="5" fill="#63ff98" filter="url(#glow)"><animate attributeName="r" values="3;9;3" dur="1.8s" repeatCount="indefinite"/></circle></g>
+</g>
+
+<!-- particles / scan -->
+<g fill="#caffda" filter="url(#glow)"><circle cx="70" cy="280" r="2"><animate attributeName="cy" values="280;250;280" dur="3s" repeatCount="indefinite"/></circle><circle cx="1580" cy="300" r="2"><animate attributeName="cy" values="300;335;300" dur="3.7s" repeatCount="indefinite"/></circle><circle cx="790" cy="210" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/></circle></g>
+<rect x="-500" y="0" width="500" height="2" fill="url(#scan)" filter="url(#glow)" opacity=".55"><animate attributeName="x" values="-500;1664" dur="8s" repeatCount="indefinite"/><animate attributeName="y" values="220;880;220" dur="8s" repeatCount="indefinite"/></rect>
+
+<g font-family="monospace" font-size="9" fill="#58ff91" opacity=".48"><text x="42" y="905">OBSERVABILITY // PERFORMANCE // RELIABILITY // ENGINEERING</text><text x="1622" y="905" text-anchor="end">SYSTEM_STATUS: NOMINAL</text></g>
+<rect width="1664" height="936" fill="#35ff78" opacity=".004"><animate attributeName="opacity" values=".003;.02;.005;.016;.003" dur="6s" repeatCount="indefinite"/></rect>
+</svg>

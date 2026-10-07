@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1664" height="936" viewBox="0 0 1664 936"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>AI Engineering — Dark Green Animated</title>
+  <desc>Animated dark-green futuristic AI Engineering section featuring LLM Applications, RAG Systems, and AI technology badges.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020a06"/>
+      <stop offset=".48" stop-color="#071b10"/>
+      <stop offset="1" stop-color="#020d08"/>
+    </linearGradient>
+
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#06140c"/>
+      <stop offset=".45" stop-color="#123d25"/>
+      <stop offset=".72" stop-color="#075a2c"/>
+      <stop offset="1" stop-color="#062012"/>
+    </linearGradient>
+
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102b1c" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#06150d" stop-opacity=".98"/>
+    </linearGradient>
+
+    <linearGradient id="greenText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42ff82"/>
+      <stop offset=".5" stop-color="#d0ffe0"/>
+      <stop offset="1" stop-color="#48ff8a"/>
+    </linearGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39ff7c" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#d2ffe0"/>
+      <stop offset="1" stop-color="#39ff7c" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#c9ffda"/>
+      <stop offset=".16" stop-color="#5cff94"/>
+      <stop offset=".55" stop-color="#27ff73" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#27ff73" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#7cffaa" stroke-opacity=".055"/>
+      <circle cx="0" cy="0" r="1" fill="#8dffb4" opacity=".18"/>
+    </pattern>
+
+    <pattern id="smallGrid" width="11" height="11" patternUnits="userSpaceOnUse">
+      <path d="M11 0H0V11" fill="none" stroke="#8cffb3" stroke-opacity=".018"/>
+    </pattern>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+
+    <clipPath id="heroClip">
+      <rect x="30" y="28" width="1604" height="170" rx="24"/>
+    </clipPath>
+
+    <!-- Neural node -->
+    <g id="neuron">
+      <circle r="11" fill="#092216" stroke="#64ff9b" stroke-width="1.5"/>
+      <circle r="3.5" fill="#c9ffda" filter="url(#tinyGlow)"/>
+    </g>
+
+    <!-- Badge -->
+    <g id="badge">
+      <rect x="-83" y="-25" width="166" height="50" rx="12"
+            fill="#07170f" stroke="#4eff8b" stroke-opacity=".34"/>
+      <rect x="-77" y="-19" width="154" height="38" rx="8"
+            fill="none" stroke="#8dffb4" stroke-opacity=".07"/>
+    </g>
+  </defs>
+
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
+
+  <rect width="1664" height="936" fill="url(#bg)"/>
+  <rect width="1664" height="936" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;44 44;0 0" dur="16s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1664" height="936" fill="url(#smallGrid)" opacity=".65">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;-11 11;0 0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <ellipse cx="832" cy="460" rx="670" ry="430" fill="url(#orb)" filter="url(#softGlow)">
+    <animate attributeName="rx" values="580;720;610;690;580"
+             dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="350;450;390;430;350"
+             dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ====================================================== -->
+  <!-- HERO -->
+  <!-- ====================================================== -->
+
+  <g clip-path="url(#heroClip)">
+    <rect x="30" y="28" width="1604" height="170" rx="24" fill="url(#hero)"/>
+
+    <!-- diagonal energy -->
+    <path d="M-100 195L470 20 M160 205L730 20 M450 205L1020 20
+             M740 205L1310 20 M1030 205L1600 20 M1320 205L1890 20"
+          stroke="#70ffa0" stroke-opacity=".09" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;90 0;0 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- neural network -->
+    <g fill="none" stroke="#72ffa3" stroke-opacity=".16" stroke-width="1.4">
+      <path d="M1180 82L1260 52L1340 95L1420 60L1510 110L1580 70"/>
+      <path d="M1210 150L1280 112L1360 142L1440 102L1530 150"/>
+      <path d="M1260 52L1280 112M1340 95L1360 142M1420 60L1440 102M1510 110L1530 150"/>
+    </g>
+
+    <g>
+      <circle cx="1180" cy="82" r="5" fill="#7dffaa"/>
+      <circle cx="1260" cy="52" r="5" fill="#7dffaa"/>
+      <circle cx="1340" cy="95" r="5" fill="#7dffaa"/>
+      <circle cx="1420" cy="60" r="5" fill="#7dffaa"/>
+      <circle cx="1510" cy="110" r="5" fill="#7dffaa"/>
+      <circle cx="1580" cy="70" r="5" fill="#7dffaa"/>
+      <circle cx="1210" cy="150" r="4" fill="#7dffaa"/>
+      <circle cx="1280" cy="112" r="4" fill="#7dffaa"/>
+      <circle cx="1360" cy="142" r="4" fill="#7dffaa"/>
+      <circle cx="1440" cy="102" r="4" fill="#7dffaa"/>
+      <circle cx="1530" cy="150" r="4" fill="#7dffaa"/>
+      <animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <circle cx="1370" cy="100" r="125" fill="none"
+            stroke="#54ff91" stroke-opacity=".08" stroke-width="1"
+            stroke-dasharray="4 12">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 1370 100" to="360 1370 100" dur="14s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="30" y="28" width="1604" height="170" rx="24"
+        fill="none" stroke="#63ff9a" stroke-opacity=".32"/>
+
+  <text x="832" y="125" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58" font-weight="800" letter-spacing="2"
+        fill="url(#greenText)">
+    AI ENGINEERING
+    <animate attributeName="opacity" values=".82;1;.82" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="832" y="157" text-anchor="middle"
+        font-family="monospace" font-size="11" letter-spacing="4"
+        fill="#6dff9f" opacity=".7">
+    INTELLIGENCE / RETRIEVAL / AUTOMATION / CONTEXT
+  </text>
+
+  <rect x="600" y="177" width="464" height="2" fill="url(#scan)" filter="url(#glow)">
+    <animate attributeName="width" values="320;520;320" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="672;572;672" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ====================================================== -->
+  <!-- CENTER AI PIPE -->
+  <!-- ====================================================== -->
+
+  <g font-family="monospace">
+    <text x="832" y="242" text-anchor="middle" fill="#4dff8c"
+          font-size="10" letter-spacing="3">AI SYSTEM CORE</text>
+
+    <path d="M650 270H1014" stroke="#58ff91" stroke-opacity=".16"
+          stroke-width="2"/>
+
+    <path d="M650 270H1014" stroke="#9affba" stroke-opacity=".6"
+          stroke-width="1.5" stroke-dasharray="2 14">
+      <animate attributeName="stroke-dashoffset" values="0;-64"
+               dur="1.4s" repeatCount="indefinite"/>
+    </path>
+
+    <circle cx="650" cy="270" r="5" fill="#baffd0" filter="url(#glow)">
+      <animate attributeName="r" values="3;9;3" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1014" cy="270" r="5" fill="#baffd0" filter="url(#glow)">
+      <animate attributeName="r" values="3;9;3" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- TWO AI CARDS -->
+  <!-- ====================================================== -->
+
+  <!-- LLM CARD -->
+  <g transform="translate(180 292)">
+    <rect x="-8" y="-8" width="640" height="460" rx="28"
+          fill="#2cff72" opacity=".04" filter="url(#softGlow)"/>
+    <rect width="624" height="444" rx="24" fill="url(#glass)"
+          stroke="#58ff93" stroke-opacity=".34"/>
+
+    <rect width="624" height="5" rx="2" fill="#4cff88">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="30" y="40" fill="#62ff98" font-family="monospace"
+          font-size="10" letter-spacing="3">01 / GENERATIVE INTELLIGENCE</text>
+
+    <!-- Brain / neural icon -->
+    <g transform="translate(312 105)">
+      <circle r="74" fill="url(#orb)" opacity=".28">
+        <animate attributeName="r" values="55;82;55" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="61" fill="none" stroke="#5cff95" stroke-opacity=".13"
+              stroke-dasharray="3 10">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- neural connections -->
+      <g fill="none" stroke="#68ff9e" stroke-width="2" stroke-opacity=".65">
+        <path d="M-45-25L-20-45L8-31L35-48L50-18L29 5L47 31L18 43L-8 27L-35 45L-49 15L-28-2Z"/>
+        <path d="M-20-45L-8-10M8-31L-8-10M35-48L29 5M-8-10L18 43M29 5L18 43M-35 45L-28-2"/>
+      </g>
+
+      <g fill="#baffd0" filter="url(#tinyGlow)">
+        <circle cx="-45" cy="-25" r="5"/>
+        <circle cx="-20" cy="-45" r="5"/>
+        <circle cx="8" cy="-31" r="5"/>
+        <circle cx="35" cy="-48" r="5"/>
+        <circle cx="50" cy="-18" r="5"/>
+        <circle cx="29" cy="5" r="5"/>
+        <circle cx="47" cy="31" r="5"/>
+        <circle cx="18" cy="43" r="5"/>
+        <circle cx="-8" cy="27" r="5"/>
+        <circle cx="-35" cy="45" r="5"/>
+        <circle cx="-49" cy="15" r="5"/>
+        <circle cx="-28" cy="-2" r="5"/>
+      </g>
+
+      <circle r="10" fill="#07170f" stroke="#baffd0" stroke-width="2"/>
+      <text y="5" text-anchor="middle" fill="#d8ffe5"
+            font-family="Arial" font-size="10" font-weight="700">AI</text>
+    </g>
+
+    <text x="30" y="215" fill="#eafff1"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="30" font-weight="700">LLM APPLICATIONS</text>
+
+    <text x="30" y="242" fill="#68ad83" font-family="monospace"
+          font-size="10" letter-spacing="1.5">MODELS / PROMPTS / AGENTS / WORKFLOWS</text>
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#9ac6a9">
+      <circle cx="37" cy="283" r="3" fill="#62ff98"/>
+      <text x="50" y="288">AI-powered applications</text>
+      <circle cx="37" cy="316" r="3" fill="#62ff98"/>
+      <text x="50" y="321">LLM APIs</text>
+      <circle cx="37" cy="349" r="3" fill="#62ff98"/>
+      <text x="50" y="354">Prompt engineering</text>
+      <circle cx="330" cy="283" r="3" fill="#62ff98"/>
+      <text x="343" y="288">Intelligent automation</text>
+      <circle cx="330" cy="316" r="3" fill="#62ff98"/>
+      <text x="343" y="321">AI-assisted workflows</text>
+    </g>
+
+    <!-- activity meter -->
+    <text x="30" y="397" fill="#4fff8c" font-family="monospace" font-size="9" letter-spacing="2">INFERENCE ACTIVITY</text>
+    <rect x="30" y="410" width="564" height="5" rx="2" fill="#0c2b1a"/>
+    <rect x="30" y="410" width="564" height="5" rx="2" fill="#49ff88">
+      <animate attributeName="width" values="130;430;260;510;180;130"
+               dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- RAG CARD -->
+  <g transform="translate(860 292)">
+    <rect x="-8" y="-8" width="640" height="460" rx="28"
+          fill="#2cff72" opacity=".04" filter="url(#softGlow)"/>
+    <rect width="624" height="444" rx="24" fill="url(#glass)"
+          stroke="#58ff93" stroke-opacity=".34"/>
+
+    <rect width="624" height="5" rx="2" fill="#4cff88">
+      <animate attributeName="opacity" values=".25;1;.25" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="30" y="40" fill="#62ff98" font-family="monospace"
+          font-size="10" letter-spacing="3">02 / KNOWLEDGE RETRIEVAL</text>
+
+    <!-- RAG flow visualization -->
+    <g transform="translate(312 104)">
+      <circle r="77" fill="url(#orb)" opacity=".25">
+        <animate attributeName="r" values="55;84;55" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="60" fill="none" stroke="#58ff93" stroke-opacity=".13"
+              stroke-dasharray="5 10">
+        <animateTransform attributeName="transform" type="rotate"
+          from="360" to="0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- documents -->
+      <g transform="translate(-48 -26)">
+        <rect width="40" height="52" rx="5" fill="#092216" stroke="#6dffa0" stroke-opacity=".6"/>
+        <path d="M8 14H32M8 24H32M8 34H26" stroke="#72ffa3" stroke-width="2" opacity=".65"/>
+      </g>
+      <g transform="translate(-4 -36)">
+        <rect width="40" height="52" rx="5" fill="#092216" stroke="#6dffa0" stroke-opacity=".6"/>
+        <path d="M8 14H32M8 24H32M8 34H26" stroke="#72ffa3" stroke-width="2" opacity=".65"/>
+      </g>
+
+      <!-- vector hub -->
+      <circle cx="16" cy="28" r="24" fill="#07170f" stroke="#8affb1" stroke-width="2"/>
+      <circle cx="16" cy="28" r="7" fill="#baffd0"/>
+      <path d="M-5 7L10 22M37 8L22 23M-7 44L9 33M39 45L24 33"
+            stroke="#65ff99" stroke-width="2" stroke-dasharray="3 5">
+        <animate attributeName="stroke-dashoffset" values="0;-32" dur="1s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- retrieval arrows -->
+      <path d="M-70 76H-25" stroke="#6cff9e" stroke-width="4"/>
+      <path d="M-25 76L-38 68V84Z" fill="#6cff9e"/>
+      <path d="M55 76H100" stroke="#6cff9e" stroke-width="4"/>
+      <path d="M100 76L87 68V84Z" fill="#6cff9e"/>
+
+      <circle cx="-72" cy="76" r="5" fill="#baffd0" filter="url(#glow)">
+        <animate attributeName="r" values="3;8;3" dur="1.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="102" cy="76" r="5" fill="#baffd0" filter="url(#glow)">
+        <animate attributeName="r" values="3;8;3" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="30" y="215" fill="#eafff1"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="30" font-weight="700">RAG SYSTEMS</text>
+
+    <text x="30" y="242" fill="#68ad83" font-family="monospace"
+          font-size="10" letter-spacing="1.5">RETRIEVAL / VECTORS / KNOWLEDGE / CONTEXT</text>
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#9ac6a9">
+      <circle cx="37" cy="283" r="3" fill="#62ff98"/>
+      <text x="50" y="288">Retrieval-Augmented Generation</text>
+      <circle cx="37" cy="316" r="3" fill="#62ff98"/>
+      <text x="50" y="321">Vector search</text>
+      <circle cx="37" cy="349" r="3" fill="#62ff98"/>
+      <text x="50" y="354">Knowledge systems</text>
+      <circle cx="330" cy="283" r="3" fill="#62ff98"/>
+      <text x="343" y="288">Document intelligence</text>
+      <circle cx="330" cy="316" r="3" fill="#62ff98"/>
+      <text x="343" y="321">Context-aware applications</text>
+    </g>
+
+    <text x="30" y="397" fill="#4fff8c" font-family="monospace" font-size="9" letter-spacing="2">RETRIEVAL PIPELINE</text>
+    <rect x="30" y="410" width="564" height="5" rx="2" fill="#0c2b1a"/>
+    <rect x="30" y="410" width="564" height="5" rx="2" fill="#49ff88">
+      <animate attributeName="width" values="180;510;290;450;150;180"
+               dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- TECHNOLOGY BADGES -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(832 790)" font-family="Arial, Helvetica, sans-serif"
+     text-anchor="middle">
+
+    <text x="0" y="-55" fill="#4fff8c" font-family="monospace"
+          font-size="10" letter-spacing="3">AI TOOLCHAIN</text>
+
+    <g transform="translate(-330 0)">
+      <use href="#badge"/>
+      <text y="5" fill="#d9ffe5" font-size="12" font-weight="700" letter-spacing="2">OPENAI</text>
+      <circle cx="66" cy="-18" r="2.5" fill="#6dffa0">
+        <animate attributeName="opacity" values=".1;1;.1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g transform="translate(-110 0)">
+      <use href="#badge"/>
+      <text y="5" fill="#d9ffe5" font-size="12" font-weight="700" letter-spacing="1.5">LANGCHAIN</text>
+      <circle cx="66" cy="-18" r="2.5" fill="#6dffa0">
+        <animate attributeName="opacity" values="1;.1;1" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g transform="translate(110 0)">
+      <use href="#badge"/>
+      <text y="5" fill="#d9ffe5" font-size="12" font-weight="700" letter-spacing="2">RAG</text>
+      <circle cx="66" cy="-18" r="2.5" fill="#6dffa0">
+        <animate attributeName="opacity" values=".1;1;.1" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g transform="translate(330 0)">
+      <use href="#badge"/>
+      <text y="5" fill="#d9ffe5" font-size="12" font-weight="700" letter-spacing="1.5">AI AUTOMATION</text>
+      <circle cx="66" cy="-18" r="2.5" fill="#6dffa0">
+        <animate attributeName="opacity" values="1;.1;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- ENERGY CONNECTIONS -->
+  <!-- ====================================================== -->
+
+  <g fill="none" stroke="#63ff98" filter="url(#glow)">
+    <path d="M490 244C430 260 370 274 310 292" stroke-opacity=".25"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-90" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1174 244C1234 260 1294 274 1354 292" stroke-opacity=".25"
+          stroke-dasharray="3 12">
+      <animate attributeName="stroke-dashoffset" values="0;-90" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- moving energy particles -->
+  <g fill="#caffdc" filter="url(#glow)">
+    <circle r="4">
+      <animateMotion path="M490 244C430 260 370 274 310 292"
+                     dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4">
+      <animateMotion path="M1174 244C1234 260 1294 274 1354 292"
+                     dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- FLOATING HUD + PARTICLES -->
+  <!-- ====================================================== -->
+
+  <g font-family="monospace" opacity=".55">
+    <text x="42" y="270" fill="#50ff8e" font-size="9">MODEL_STATUS</text>
+    <text x="42" y="286" fill="#70a987" font-size="9">READY / ONLINE</text>
+    <circle cx="50" cy="303" r="3" fill="#66ff9c">
+      <animate attributeName="r" values="2;7;2" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="1450" y="270" fill="#50ff8e" font-size="9">VECTOR_DB</text>
+    <text x="1450" y="286" fill="#70a987" font-size="9">SYNCED / LIVE</text>
+    <circle cx="1458" cy="303" r="3" fill="#66ff9c">
+      <animate attributeName="r" values="2;7;2" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#9dffba" filter="url(#tinyGlow)">
+    <circle cx="130" cy="220" r="1.4">
+      <animate attributeName="cy" values="220;250;220" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="270" r="1.8">
+      <animate attributeName="cx" values="260;290;260" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1440" cy="215" r="1.5">
+      <animate attributeName="cy" values="215;245;215" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1510" cy="350" r="1.8">
+      <animate attributeName="cx" values="1510;1480;1510" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="95" cy="700" r="1.5">
+      <animate attributeName="cy" values="700;670;700" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1570" cy="700" r="1.5">
+      <animate attributeName="cy" values="700;730;700" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Horizontal scanning laser -->
+  <rect x="-500" y="500" width="500" height="2" fill="url(#scan)"
+        filter="url(#glow)" opacity=".55">
+    <animate attributeName="x" values="-500;1664" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scanlines -->
+  <g opacity=".045" stroke="#baffd0">
+    <path d="M0 215H1664M0 265H1664M0 315H1664M0 365H1664
+             M0 415H1664M0 465H1664M0 515H1664M0 565H1664
+             M0 615H1664M0 665H1664M0 715H1664M0 765H1664
+             M0 815H1664M0 865H1664"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;0 50;0 0" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Corner frame -->
+  <rect x="22" y="22" width="1620" height="892" rx="18"
+        fill="none" stroke="#62ff98" stroke-opacity=".14">
+    <animate attributeName="stroke-opacity" values=".08;.28;.1;.22;.08"
+             dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="none" stroke="#6effa0" stroke-width="2" opacity=".55">
+    <path d="M38 72V38H72"/>
+    <path d="M1592 38H1626V72"/>
+    <path d="M38 864V898H72"/>
+    <path d="M1592 898H1626V864"/>
+  </g>
+
+  <!-- Footer telemetry -->
+  <g font-family="monospace" font-size="9" fill="#58ff91" opacity=".5">
+    <text x="42" y="902">LLM // RAG // VECTOR SEARCH // AI AUTOMATION</text>
+    <text x="1622" y="902" text-anchor="end">AI_CORE: ACTIVE</text>
+  </g>
+
+  <!-- tiny digital flicker -->
+  <g fill="#d8ffe5">
+    <circle cx="410" cy="230" r="1"><animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="260" r="1"><animate attributeName="opacity" values="1;0;.8;0" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="220" r="1.2"><animate attributeName="opacity" values="0;.9;0" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1240" cy="470" r="1"><animate attributeName="opacity" values=".1;1;0;.7" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="860" r="1.2"><animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Overall breathing glow -->
+  <rect width="1664" height="936" fill="#36ff79" opacity=".006"
+        style="mix-blend-mode:screen">
+    <animate attributeName="opacity" values=".004;.022;.006;.018;.004"
+             dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
