@@ -34,11 +34,11 @@ Available for contract work at
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=seraph.nova.dev@gmail.com"
    target="_blank">
   seraph.nova.dev@gmail.com
-</a>
+</a>, 
   <!-- Discord -->
 <a href="https://discord.com/users/thomascooper0067" target="_blank" rel="noopener noreferrer">
   thomascooper0067
-</a>
+</a>, 
 
 <!-- Telegram -->
 <a href="https://t.me/NovaDev0502" target="_blank" rel="noopener noreferrer">
