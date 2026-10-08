@@ -35,6 +35,15 @@ Available for contract work at
    target="_blank">
   seraph.nova.dev@gmail.com
 </a>
+  <!-- Discord -->
+<a href="https://discord.com/users/thomascooper0067" target="_blank" rel="noopener noreferrer">
+  thomascooper0067
+</a>
+
+<!-- Telegram -->
+<a href="https://t.me/NovaDev0502" target="_blank" rel="noopener noreferrer">
+  NovaDev0502
+</a>
 </p>
 
 <br>
