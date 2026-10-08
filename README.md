@@ -31,7 +31,7 @@ database, and deployment.
 I take a product from idea to a shipped system: clear architecture,
 reliable backend services, and a frontend people can actually use.
 Available for contract work at
-<a href="https://github.com/NovaMan777">github.com/NovaMan777</a>.
+<a href="https://seraph.nova.dev@gmail.com">seraph.nova.dev@gmail.com</a>.
 </p>
 
 <br>
