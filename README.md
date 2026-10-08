@@ -31,7 +31,10 @@ database, and deployment.
 I take a product from idea to a shipped system: clear architecture,
 reliable backend services, and a frontend people can actually use.
 Available for contract work at
-<a href="mailto:seraph.nova.dev@gmail.com">seraph.nova.dev@gmail.com</a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=seraph.nova.dev@gmail.com"
+   target="_blank">
+  seraph.nova.dev@gmail.com
+</a>
 </p>
 
 <br>
