@@ -22,7 +22,7 @@
 <h2>Nova Man</h2>
 
 <p>
-Full-stack freelancer with <strong>9 years</strong> of experience
+Full-stack developer with <strong>9 years</strong> of experience
 building production web applications from interface to API,
 database, and deployment.
 </p>
